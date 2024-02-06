@@ -4,7 +4,7 @@ BIN=fullpath
 all: build
 
 build:
-	$(CC) main.c -o (BIN)
+	$(CC) main.c -o $(BIN)
 
 clean:
 	rm -f $(BIN)
